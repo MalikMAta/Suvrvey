@@ -14,16 +14,29 @@ class Survey{
     var creator:String
     var title:String
     
+    //0 = true false
+    //1 = Multipe choice
+    var type:Int
+    
     init() {
         questions = ["This is not a question"]
         responces = [[0]]
         creator = "Default"
         title = "Default Survey Title"
+        type = 0
     }
     init(_ name:String) {
         questions = ["This is not a question"]
         responces = [[0]]
-        creator = "SurveyUp"
+        creator = "Default"
+        type = 0
+        title = name
+    }
+    init(_ name:String, _ type:Int) {
+        questions = ["This is not a question"]
+        responces = [[0]]
+        creator = "Default"
+        self.type = type
         title = name
     }
 }
