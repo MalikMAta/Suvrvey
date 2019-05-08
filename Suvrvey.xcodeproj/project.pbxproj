@@ -14,6 +14,9 @@
 		40000A092280F7F200B06607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40000A072280F7F200B06607 /* LaunchScreen.storyboard */; };
 		40000A142280F7F200B06607 /* SuvrveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40000A132280F7F200B06607 /* SuvrveyTests.swift */; };
 		40000A1F2280F7F200B06607 /* SuvrveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40000A1E2280F7F200B06607 /* SuvrveyUITests.swift */; };
+		B0EA176022828EDA00FD922A /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EA175F22828EDA00FD922A /* Survey.swift */; };
+		B0EA1762228294CC00FD922A /* TakeServeyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EA1761228294CC00FD922A /* TakeServeyController.swift */; };
+		B0EA17642282A6F800FD922A /* SurveyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EA17632282A6F800FD922A /* SurveyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		40000A1A2280F7F200B06607 /* SuvrveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuvrveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40000A1E2280F7F200B06607 /* SuvrveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuvrveyUITests.swift; sourceTree = "<group>"; };
 		40000A202280F7F200B06607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EA175F22828EDA00FD922A /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		B0EA1761228294CC00FD922A /* TakeServeyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeServeyController.swift; sourceTree = "<group>"; };
+		B0EA17632282A6F800FD922A /* SurveyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				400009FE2280F7EE00B06607 /* AppDelegate.swift */,
 				40000A002280F7EE00B06607 /* ViewController.swift */,
+				B0EA1761228294CC00FD922A /* TakeServeyController.swift */,
 				40000A022280F7EE00B06607 /* Main.storyboard */,
+				B0EA17632282A6F800FD922A /* SurveyCell.swift */,
+				B0EA175F22828EDA00FD922A /* Survey.swift */,
 				40000A052280F7F200B06607 /* Assets.xcassets */,
 				40000A072280F7F200B06607 /* LaunchScreen.storyboard */,
 				40000A0A2280F7F200B06607 /* Info.plist */,
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EA17642282A6F800FD922A /* SurveyCell.swift in Sources */,
+				B0EA1762228294CC00FD922A /* TakeServeyController.swift in Sources */,
+				B0EA176022828EDA00FD922A /* Survey.swift in Sources */,
 				40000A012280F7EE00B06607 /* ViewController.swift in Sources */,
 				400009FF2280F7EE00B06607 /* AppDelegate.swift in Sources */,
 			);
@@ -431,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = Suvrvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = Suvrvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
