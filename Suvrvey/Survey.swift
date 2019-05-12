@@ -39,4 +39,11 @@ class Survey{
         self.type = type
         title = name
     }
+    init(_ dictionary:NSDictionary){
+        responces = [[0]]
+        creator = dictionary["Creator"] as? String ?? "Default"
+        self.type = dictionary["Questions"] as? Int ?? 0
+        title = dictionary["Title"] as? String ?? ""
+        self.questions = dictionary["Questions"] as? [String] ?? [String]()
+    }
 }

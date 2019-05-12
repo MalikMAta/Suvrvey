@@ -24,7 +24,6 @@ class AccountController: UIViewController {
             userNameText.removeSubrange(location.lowerBound ..< userNameText.endIndex)
         }
         UserName.text = userNameText
-        print(user?.description)
         // Do any additional setup after loading the view.
     }
     
