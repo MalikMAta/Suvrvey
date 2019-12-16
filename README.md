@@ -30,3 +30,14 @@ Firebase
 Pods Install
 Github
 
+![image](https://user-images.githubusercontent.com/33469942/70937181-b9561b80-1ff8-11ea-973f-f7fd8f68037d.png)
+
+![image](https://user-images.githubusercontent.com/33469942/70937185-bc510c00-1ff8-11ea-9662-ef8f4d227cba.png)
+
+![image](https://user-images.githubusercontent.com/33469942/70937193-beb36600-1ff8-11ea-97f8-95e513395f0f.png)
+
+![image](https://user-images.githubusercontent.com/33469942/70937209-c1ae5680-1ff8-11ea-8278-e9d6076be70c.png)
+
+![image](https://user-images.githubusercontent.com/33469942/70937213-c3781a00-1ff8-11ea-8b74-6741edfa7231.png)
+
+![image](https://user-images.githubusercontent.com/33469942/70937217-c5da7400-1ff8-11ea-8b04-dfd664f39125.png)
