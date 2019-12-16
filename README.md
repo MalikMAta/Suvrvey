@@ -1,4 +1,4 @@
-# Suvrvey
+# SurveyUp
 
 SurveyUp Survey Application:
 - User can login via 
